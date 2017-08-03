@@ -1,0 +1,69 @@
+body{
+  /*background-image: url('../media/img/fondoMusic.jpg');*/
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('../media/img/fondoMusic.jpg');
+  opacity: 0.9px;
+  background-size: cover;
+}
+
+header div img{
+  max-width: 200px;
+}
+
+header div[class="row"]:nth-child(1){
+  background-color: #dff354;
+  padding: 10px 0 10px 0;
+}
+
+textarea{
+  max-width: 50%;
+  margin: 10px 10px 10px 0px;
+}
+
+.container-fluid{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.redes{
+  padding-top: 175px;
+}
+.redes img{
+  max-width: 25px;
+}
+.navbar-default{
+  background-color: #1a252b !important;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:aliceblue;
+}
+
+.busqueda > li{
+  background-color: lightsalmon;
+  border-radius: 4px;
+}
+
+.fondoBusqueda{
+  background-color: #56f9df;
+}
+
+.busqueda > li a{
+  color:black;
+}
+
+article img{
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .text-right.redes{
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .text-left.logo{
+    text-align: center;
+  }
+
+}

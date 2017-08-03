@@ -3,13 +3,131 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="acgyiyo">
-    <meta name="viewport" content="width=device-width,user-scalable=no">
-    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="/css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
     <title></title>
   </head>
   <body>
-    
+    <div class="container-fluid">
+
+      <header>
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-left logo">
+            <img src="media/img/musicLogo.png" alt="Logo">
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right redes">
+            <a href="#"><img class="" src="media/img/Facebook-ico.png" alt=""></a>
+            <a href="#"><img class="" src="media/img/GooglePlus-ico.png" alt=""></a>
+            <a href="#"><img class="" src="media/img/Instagram-ico.png" alt=""></a>
+            <a href="#"><img class="" src="media/img/Youtube-ico.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <!--según la instruccion la navbar debe ir distribuida, pero me parece que así quedar mejor, distribuida se ve horrible -->
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-blogMusica-navbar" aria-expanded="false">
+                <span class="sr-only">Mostrar Navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Menú</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-blogMusica-navbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Electrónica<span class="sr-only">(A)</span></a></li>
+                <li><a href="#">Metal Sinfónico</a></li>
+                <li><a href="#">Electro Pop</a></li>
+                <li><a href="#">Rock</a></li>
+                <li><a href="#">Rap & Hip-Hop</a></li>
+                <li><a href="#">UNO</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="col-lg-9">
+          <section>
+            <div class="row">
+              <article class="">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                  <h3>Origen de la música electrónica</h3>
+                  <p>
+                      El Techno es una forma de música electrónica que se desarrolló y estableció como
+                      género en Detroit, EE.UU., durante los ‘80. Fue influenciado por el Chicago House, Electro, New Wave, Funk y temas futuristas y relativos a la cultura moderna durante el fin de la Guerra Fría. Siguiendo el éxito inicial del Detroit Techno como una cultura musical, al menos a nivel regional, un subconjunto de géneros relacionado emergió mundialmente en los ‘90.
+                    </p>
+                    <p>
+                      El término “Techno” deriva de tecnología. Los especiales en su música y fans del género son selectivos en el uso del término, cuidando de no mezclarlo con
+                      otros géneros relacionados pero distintos, como el House, Trance y Hardcore. Al mismo tiempo, “Techno” es comúnmente confundido con términos como música electrónica y dance, siendo que el techno es una de muchas formas de música electrónica.
+                    </p>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <img src="media/img/electroMusic.jpg" alt="">
+                  </div>
+                </article>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <textarea class="form-control" placeholder="Comentarios"></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <article class="">
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <img src="media/img/tranceMusic.jpg" alt="ElectroMusic">
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <h3>Música Trance</h3>
+                    <p>
+                      Trance es un género de música electrónica de baile que se desarrolló en los años 1990. La música trance está caracterizada generalmente
+                      por un tempo entre 125 y 160 BPM,1​ fraseos melódicos cortos de sintetizador y una forma musical que sube y baja durante cada tema. Aunque los ritmos que se emplean son patrones de la música Techno, el Trance fue denominado por algunos House Atmosférico en sus inicios.
+                    </p>
+                    <p>
+                      Es el resultado de la combinación de diferentes estilos musicales, como el house, techno, acid house, música clásica, synthpop, pop, ambient, música cinematográfica, new age e
+                      industrial por lo que a veces puede ser muy ambiguo debido a esta amplia variedad;2​ con remixes de pop, sinfónico u orquestal, minimalista (con el uso de piano clásico y órgano), con estructuras House y/o Techno, etc...
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <textarea class="form-control" placeholder="Comentarios"></textarea>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-lg-3">
+            <section>
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-search" id="searchB"></span>
+                <input type="text" class="form-control" placeholder="Buscar" aria-describedby="searchB">
+              </div>
+              <br>
+              <ul class="nav nav-pills nav-stacked text-muted busqueda">
+                <li role="presentation"><a href="#">Trance</a></li>
+                <li role="presentation"><a href="#">Dance</a></li>
+                <li role="presentation"><a href="#">Disco</a></li>
+                <li role="presentation"><a href="#">Grupos</a></li>
+                <li role="presentation"><a href="#">Grandes artistas</a></li>
+                <li role="presentation"><a href="#">Sub-generos</a></li>
+                <li role="presentation"><a href="#">Historia</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
