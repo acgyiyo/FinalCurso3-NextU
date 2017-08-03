@@ -1,7 +1,5 @@
 body{
-  /*background-image: url('../media/img/fondoMusic.jpg');*/
   background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('../media/img/fondoMusic.jpg');
-  opacity: 0.9px;
   background-size: cover;
 }
 
@@ -11,6 +9,7 @@ header div img{
 
 header div[class="row"]:nth-child(1){
   background-color: #dff354;
+  background-image: url('../media/img/musicBanner.png');
   padding: 10px 0 10px 0;
 }
 
@@ -23,12 +22,15 @@ textarea{
   padding-right: 20px;
   padding-left: 20px;
 }
+
 .redes{
   padding-top: 175px;
 }
+
 .redes img{
   max-width: 25px;
 }
+
 .navbar-default{
   background-color: #1a252b !important;
   color: white;
