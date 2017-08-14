@@ -8,7 +8,7 @@ header div img{
 }
 
 header div[class="row"]:nth-child(1){
-  background-color: #dff354;
+  background-color: gainsboro;
   background-image: url('../media/img/musicBanner.png');
   padding: 10px 0 10px 0;
 }
@@ -41,7 +41,7 @@ textarea{
 }
 
 .busqueda > li{
-  background-color: lightsalmon;
+  background-color: navajowhite;
   border-radius: 4px;
 }
 

@@ -4,13 +4,162 @@
     <meta charset="utf-8">
     <meta name="author" content="acgyiyo">
     <meta name="viewport" content="width=device-width,user-scalable=no">
-    <link type="text/css" rel="stylesheet" href="/css/foundation.css">
-    <link type="text/css" rel="stylesheet" href="/css/app.css">
-    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/foundation.min.css">
+    <link type="text/css" rel="stylesheet" href="css/foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/app.css">
+    <title>Blog de gastronimia</title>
   </head>
   <body>
 
+    <header>
+      <div class="row">
+        <div class="large-5 medium-5 small-12 columns">
+          <div class="row">
+            <div class="column large-text-right medium-text-right small-text-left">
+              <h3 class="titulo">Gastronomia Colombiana y Mexicana</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column large-text-right medium-text-right small-text-left titulo">
+              Excelente Combinación!!
+            </div>
+          </div>
+        </div>
+<!--
+        <div class="large-7 medium-7 small-12 columns">
+
+        </div> -->
+      </div>
+    </header>
+    <br>
+
+    <div class="row">
+      <div class="large-5 medium-5 small-12 columns">
+        <section class="menuFav">
+
+          <div class="row">
+            <div class="column">
+              <label> Buscar <span class="postfix"><i class="fi-magnifying-glass"></i></span>
+                <input type="search" name="name" placeholder="Introduzca el texto que desee buscar">
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <ul class="vertical menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Platos Colombianos</a></li>
+                <li><a href="#">Platos Mexicanos</a></li>
+                <li><a href="#">Platos Mixtos</a></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="column">
+              <h6>Favoritos:</h6>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-4 medium-4 small-6 columns">
+              <img src="media/img/chilaquiles.jpg" alt="Fav1">
+            </div>
+
+            <div class="large-4 medium-4 small-6 columns">
+              <img src="media/img/chuzos y brochetas.jpg" alt="Fav2">
+            </div>
+
+            <div class="large-4 medium-4 columns hide-for-small-only">
+              <img src="media/img/empanadas.jpg" alt="Fav3">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-4 medium-4 small-6 columns">
+              <img src="media/img/nachos.jpg" alt="Fav4">
+            </div>
+
+            <div class="large-4 medium-4 small-6 columns">
+              <img src="media/img/sancocho.jpg" alt="Fav5">
+            </div>
+
+            <div class="large-4 medium-4 columns hide-for-small-only">
+              <img src="media/img/tacos.jpg" alt="Fav6">
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="large-7 medium-7 small-12 columns">
+        <article class="">
+          <div class="row">
+            <div class="columns">
+              <h3>Mondongo</h3>
+              <span>Fecha: 2017/10/09</span><br>
+              <img src="media/img/mondongo.jpg" alt="mondongo">
+              <p>
+                El mondongo, sancocho de mondongo o sopa de mondongo es una sopa típica de la cocina colombiana, preparada básicamente con panza de res(callo);
+                 esta receta es muy extendida en los departamentos de la Costa Caribe, Valle del Cauca, Santander, Altiplano Cundiboyacence y Antioquia, en los
+                  Departamentos de los Santanderes se le llama Mute pero sus ingredientes y preparación son diferentes.
+               </p>
+
+               <div class="comments">
+                 <label>Escribe tu comentario
+                   <textarea placeholder="Tu opinion cuenta!!"></textarea>
+                 </label>
+                 <div class="text-right">
+                   <a href="#" class="button">Publicar</a>
+                 </div>
+
+                 <div class="panel callout">
+                  <p>
+                    <img src="media/img/mujer.png" alt="">
+                    <b>Camila: </b>Grandioso!!, ya se me antojó mucho
+                  </p>
+                </div>
+
+                <div class="panel callout">
+                  <p>
+                    <img src="media/img/hombre.png" alt="">
+                    <b>Juan Sebastián: </b> Yo quiero aprender a hacerlo, quien me da una receta bien rica??
+                  </p>
+               </div>
+
+               </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="">
+          <div class="row">
+            <div class="columns">
+              <h3>Enchiladas</h3>
+              <span>Fecha: 2017/10/10</span><br>
+              <img src="media/img/enchiladas.jpg" alt="enchiladas">
+              <p>
+                Es un antojito mexicano elaborado con tortillas de maíz bañadas en salsa de chiles y rellenas de un guiso, principalmente pollo o frijoles.
+                Se sirven con una guarnición por encima, como puede ser lechuga, queso y crema ácida. Existen muchas variantes, como las enchiladas verdes,
+                 con mole, potosinas, placeras o suizas. Estas últimas se elaboran con caldo de tomate y queso gratinado.
+              </p>
+              
+              <div class="comments">
+                <label>Escribe tu comentario
+                  <textarea placeholder="Tu opinion cuenta!!"></textarea>
+                </label>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/what-input.js"></script>
     <script type="text/javascript" src="js/foundation.min.js"></script>
   </body>
 </html>

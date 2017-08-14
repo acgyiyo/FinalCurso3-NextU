@@ -1,0 +1,36 @@
+body{
+  background-image: url('../media/img/fondoGastronomia.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menuFav{
+  background-color: rgba(255,0,0,0.1);
+}
+
+.menu img{
+  max-height: 90px;
+}
+
+.titulo{
+  color: white;
+}
+
+header > div{
+  background-image: url('../media/img/headerGastronomia.jpg');
+  background-position: right;
+  background-size: cover;
+}
+
+article{
+  background-color: rgba(203, 175, 231, 0.62)
+}
+article img{
+  padding: 15px;
+}
+.comments{
+  padding: 10px;
+}
+.panel img{
+  max-height: 80px;
+}
