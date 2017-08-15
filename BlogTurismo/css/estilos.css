@@ -36,6 +36,10 @@ nav{
   .galeria{
     margin-top: 15%;
   }
+
+  .right-align.enviar{
+      text-align:center;
+  }
 }
 
 @media only screen and (max-width: 993px) {
